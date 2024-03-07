@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style18.css">
+</head>
+<body>
+    <div class="hover" id="hover">
+        HOVER over me
+    </div>
+
+    <script>
+        const div = document.getElementById("hover")
+        function changeColorOnHover() {
+            div.style.backgroundColor ="blue";
+
+        }
+        function restoreColorOnExit() {
+            div.style.backgroundColor ="yellow";
+            
+        }
+        div.addEventListener("mouseenter",changeColorOnHover);
+        div.addEventListener("mouseleave", restoreColorOnExit);
+
+
+    </script>
+</body>
+</html>

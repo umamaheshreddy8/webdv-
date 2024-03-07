@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style19.css">
+</head>
+<body>
+    <div  id="keyboard">
+        hello
+    </div>
+
+    <script>
+       document.addEventListener("keydown",function(event){
+        console.log(event.key);
+        const keyboard = document.getElementById("keyboard");
+        const pressedkey = event.key;
+        const newElement=document.createElement("p");
+        newElement.textContent = "you pressed the key" +pressedkey;
+        keyboard.appendChild(newElement);
+       })
+
+
+    </script>
+</body>
+</html>
