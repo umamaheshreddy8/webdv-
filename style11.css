@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@200&family=Playfair+Display&family=Roboto&family=Source+Code+Pro:ital,wght@1,800&display=swap');
+
+
+.nav-logo {
+    height: 100px;
+}
+.mass-body {
+    height: 100vh;
+    background-color: red;
+}
+.anchor {
+    margin-left: auto;
+}
+.item-nav{
+    color: aliceblue;
+    font-family: 'Kalnia', serif;
+
+}
+
+.item-nav:hover {
+    color: blue;
+}
+
+.box-left {
+    
+    color: white;
+    height: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding-left: 200px;
+}
+.box-right {
+    color: white;
+    height: 10px;
+}
+.home-para {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+.body-section {
+    height: 20vh;
+    
+}
+.about-us {
+    background-color: brown;
+    
+}
+.what-we-do {
+    background-color: aquamarine;
+}
+.what-h1 {
+    color: royalblue;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+
+}
+.what-p {
+    text-align: center;
+    font-size: large;
+    padding-left: 40px;
+    padding-right: 20px;
+}
+.courses-h1 {
+    color: royalblue;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+
+
+} 
+.card {
+    background-color: transparent;
+    color: white;
+    border: 2px solid red;
+    padding: 20px;
+}
+.card-h1 {
+    padding-top: 20px;
+    text-align: center;
+}
+.card-p {
+    text-align: center;
+    font-size: large;
+}
